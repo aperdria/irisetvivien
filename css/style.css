@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Lato", Arial, sans-serif;
+  font-family: "Mate", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -64,9 +64,18 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Lato", Arial, sans-serif;
-  font-weight: 400;
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 300;
   margin: 0 0 20px 0;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+span {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 300;
 }
 
 ::-webkit-selection {
@@ -125,6 +134,8 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline;
 }
 .fh5co-nav ul li a {
+  font-family: "Quicksand", Arial, serif;
+  font-weight: 300;
   font-size: 14px;
   padding: 30px 10px;
   text-transform: uppercase;
@@ -355,7 +366,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
+  height: 1100px;
   float: left;
 }
 #fh5co-counter .display-t,
@@ -376,7 +387,6 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 2px;
-  font-weight: 600;
 }
 #fh5co-counter .overlay,
 #fh5co-event .overlay {
@@ -940,8 +950,8 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background: rgba(255, 209, 102, 80%);
   margin: 0 4px;
   -webkit-border-radius: 50%;
@@ -967,8 +977,8 @@ form label {
   /* countdown block inner div */
   display: table-cell;
   vertical-align: middle;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 
 .simply-countdown > .simply-section .simply-amount,
@@ -979,7 +989,7 @@ form label {
 }
 
 .simply-countdown > .simply-section .simply-amount {
-  font-size: 30px;
+  font-size: 24px;
   /* amounts */
 }
 
@@ -1065,7 +1075,7 @@ form label {
   }
 }
 .couple-half h3 {
-  font-family: "Playfair Display", Arial, serif;
+  font-family: "Quicksand", Arial, serif;
   color: #FFD166;
   font-size: 30px;
 }
@@ -1157,8 +1167,8 @@ form label {
   display: table-cell;
   vertical-align: middle;
   height: 90px;
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 24px;
+  line-height: 24px;
   color: #FFD166;
 }
 .feature-center p, .feature-center h3 {
@@ -1200,7 +1210,6 @@ form label {
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 2px;
-  font-weight: 600;
   color: rgba(0, 0, 0, 0.4);
 }
 
@@ -1309,7 +1318,7 @@ form label {
 .feature-left .icon i {
   display: table-cell;
   vertical-align: middle;
-  font-size: 30px;
+  font-size: 24px;
   color: #FFD166;
 }
 .feature-left .feature-copy {
@@ -1344,7 +1353,7 @@ form label {
   color: #fff;
 }
 #fh5co-started .fh5co-heading p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 1);
 }
 #fh5co-started .form-control {
   background: rgba(255, 255, 255, 0.2);
@@ -1649,13 +1658,13 @@ form label {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Lato", Arial, sans-serif;
+  font-family: "Mate", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  border-radius: 30px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -1846,7 +1855,8 @@ form label {
 
 .typeform-button {
   all: unset;
-  font-family: Oswald, Arial, sans-serif;
+  font-family: Quicksand, Arial, sans-serif;
+  font-weight: 500;
   display: inline-block;
   max-width: 100%;
   white-space: nowrap;
@@ -1855,13 +1865,44 @@ form label {
   background-color: #FFD166;
   color: #fff;
   font-size: 20px;
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 0 33px;
-  font-weight: bold;
   height: 50px;
   cursor: pointer;
   line-height: 50px;
   text-align: center;
   margin: 0;
   text-decoration: none;
+}
+
+#fh5co-testimonial figure img {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+#fh5co-testimonial span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  display: block;
+}
+
+#fh5co-testimonial .fh5co-subheading {
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+
+#fh5co-testimonial .fh5co-heading {
+  margin-bottom: 0em;
+}
+
+h4 {
+font-weight: 300;
+  text-transform: uppercase;
+  color: #999999;
 }
