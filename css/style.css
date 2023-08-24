@@ -1855,15 +1855,15 @@ form label {
 
 .typeform-button {
   all: unset;
-  font-family: Quicksand, Arial, sans-serif;
+  font-family: "Playfair Display", Arial, serif;
   font-weight: 500;
   display: inline-block;
   max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  background-color: #FFD166;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   font-size: 20px;
   border-radius: 10px;
   padding: 0 33px;
@@ -1873,6 +1873,10 @@ form label {
   text-align: center;
   margin: 0;
   text-decoration: none;
+}
+
+.typeform-button:hover {
+  background: #e6e6e6;
 }
 
 #fh5co-testimonial figure img {
@@ -1905,4 +1909,10 @@ h4 {
 font-weight: 300;
   text-transform: uppercase;
   color: #999999;
+}
+
+#fh5co-started p {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 300;
+  color: #fff;
 }
